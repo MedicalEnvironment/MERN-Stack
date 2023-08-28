@@ -28,6 +28,7 @@
 }
 
 .decks li {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,6 +39,14 @@
   border-radius: 13px;
 }
 
+.decks li button {
+  position: absolute;
+  font-size: 8px;
+  top: 5px;
+  right: 5px;
+}
+
 .decks li:hover {
   background: #eee;
 }
+
