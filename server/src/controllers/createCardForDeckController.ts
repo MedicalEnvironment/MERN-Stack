@@ -4,6 +4,7 @@ import Deck from "../models/Deck";
 export async function createCardForDeckController(req: Request, res: Response) {
     const deckId = req.params.deckId;
     const deck = await Deck.findById(deckId);
+
     if (!deck) return res.status(400).send("No deck with this id has been found");
     const { text } = req.body;
     deck.cards.push(text);
