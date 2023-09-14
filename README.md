@@ -1,4 +1,4 @@
-MERN Stack Deck Creator
+# MERN Stack Deck Creator
 ![image](https://github.com/MedicalEnvironment/MERN-Stack/assets/105016091/6f1ca1f5-0709-42a6-9806-8e971512dbf3)
 
 
